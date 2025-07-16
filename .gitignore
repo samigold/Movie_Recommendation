@@ -17,9 +17,10 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Optional build output
+# Build output
 /dist
 /build
+react-app/build/
 
 # VS Code settings
 .vscode/
@@ -29,6 +30,9 @@ coverage/
 
 # Redis dump files
 dump.rdb
+
+# React specific
+react-app/.eslintcache
 
 # Misc
 *.swp
